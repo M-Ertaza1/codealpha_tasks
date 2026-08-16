@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basecamp Supply Co. — Gear for the trail</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <svg class="mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 3L2 20H22L12 3Z" stroke="#c1543c" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M9 13L12 8L15 13" stroke="#f2efe6" stroke-width="1.5"/>
+        </svg>
+        BASECAMP
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Shop</a>
+        <a href="cart.html">Cart <span class="cart-count" id="cart-count">0</span></a>
+        <span id="nav-auth-slot"><a href="login.html">Log in</a></span>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">Trail-tested gear</span>
+      <h1>Everything you need before the trailhead disappears behind you.</h1>
+      <p>Backpacks, tents, boots, and layers built for people who'd rather be outside. Free shipping on every order.</p>
+      <a href="#shop" class="btn btn-primary">Shop the collection</a>
+    </div>
+  </section>
+
+  <div class="container" id="shop">
+    <div class="section-head">
+      <h2>All gear</h2>
+    </div>
+
+    <div class="filters">
+      <button class="filter-chip active" data-category="">All</button>
+      <button class="filter-chip" data-category="Backpacks">Backpacks</button>
+      <button class="filter-chip" data-category="Camping">Camping</button>
+      <button class="filter-chip" data-category="Footwear">Footwear</button>
+      <button class="filter-chip" data-category="Apparel">Apparel</button>
+      <button class="filter-chip" data-category="Accessories">Accessories</button>
+    </div>
+
+    <div class="product-grid" id="product-grid"></div>
+  </div>
+
+  <footer class="site-footer">
+    Basecamp Supply Co. — a demo store built for the CodeAlpha Full Stack internship.
+  </footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/products.js"></script>
+</body>
+</html>

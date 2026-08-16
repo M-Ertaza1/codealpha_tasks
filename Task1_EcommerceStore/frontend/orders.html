@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your orders — Basecamp Supply Co.</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <svg class="mark" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 3L2 20H22L12 3Z" stroke="#c1543c" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M9 13L12 8L15 13" stroke="#f2efe6" stroke-width="1.5"/>
+        </svg>
+        BASECAMP
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Shop</a>
+        <a href="cart.html">Cart <span class="cart-count" id="cart-count">0</span></a>
+        <span id="nav-auth-slot"><a href="login.html">Log in</a></span>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="section-head"><h2>Your orders</h2></div>
+    <div id="orders-root"></div>
+  </div>
+
+  <footer class="site-footer">
+    Basecamp Supply Co. — a demo store built for the CodeAlpha Full Stack internship.
+  </footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/orders.js"></script>
+</body>
+</html>
